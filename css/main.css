@@ -4,11 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #021823;
   height: 100vh;
+  margin-top: 200px;
 }
 .anim {
   width: 1000px;
@@ -20,6 +18,28 @@ body {
   color: #fff;
   font-size: 70px;
   overflow: hidden;
+}
+.hh {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 40px;
+  animation: text 3s;
+  color: white;
+  margin-top: -400px;
+}
+@keyframes text {
+  0% {
+    font-size: 80px;
+  }
+  30% {
+    font-size: 40px;
+    margin-left: -200px;
+  }
+  100% {
+    font-size: 36px;
+  }
 }
 img {
   width: 500px;
